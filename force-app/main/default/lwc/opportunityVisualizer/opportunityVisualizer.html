@@ -1,0 +1,25 @@
+<template>
+
+  <div if:true={item01}>
+    <h1>ITEM 1</h1>
+  </div>
+  <div if:true={item02}>
+    <h1>ITEM 2</h1>
+  </div>
+<!-- 
+  <div style="width: 100%; text-align: center;">
+    <iframe width="400px" height="200px"
+      src="https://www.youtube.com/embed/AaKRnVg8Ck0" allowfullscreen=""
+      style="border-style: none;">
+    </iframe>
+  </div>
+-->
+
+  <div class="slds-box outerPart">
+    <p class="slds-m-bottom_small">Opportunity Visualizer</p>
+    <!-- lightning-button variant="brand" name="verifyMail" label="Sync Salesforce Tasks" onclick​={initialiseFullCalendarJs}></lightning-button -->
+    <div style="background:#ffffff;" class="slds-grid slds-m-top_medium">
+      <div id="calendar" class="fullcalendarjs"></div>
+    </div>
+  </div>
+</template>

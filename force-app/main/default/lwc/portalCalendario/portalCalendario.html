@@ -1,0 +1,71 @@
+<template>
+    <template if:false={hasPermission}>
+        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_info" role="alert"
+            style="border-radius: .25rem; background-color: rgb(255, 255, 255); color: rgb(8, 7, 7);">
+            <span class="slds-assistive-text">info</span>
+            <span class="slds-icon_container slds-icon-utility-error slds-m-right_x-small" title="Sem permissão">
+                <lightning-icon icon-name="utility:error" variant="circle" alternative-text="info"></lightning-icon>
+            </span>
+            <h2><b>Você não possui permissão para acessar o calendário de Ordens de trabalho.</b></h2>
+        </div>
+    </template>
+    <template if:true={hasPermission}>
+        <template if:true={loaded}>
+            <div class="div-spinner-center">
+                <lightning-spinner alternative-text="Processando" size="medium" class="spinner-center">
+                </lightning-spinner>
+            </div>
+        </template>
+        <template if:false={loaded}>
+            <div class={adjustMain}>
+                <div class={sizeCommunity} style={displayCommunity}>
+                    <div>
+                        <h1 style="color: #095183; font-size: 30px;">
+                            <b>Calendário</b></br>
+                        </h1>
+                        <p>
+                            Utilize o calendário para acompanhar datas importantes como: vencimento de boletos, visita à
+                            obra, assembleia, vistoria etc.
+                        </p>
+                        <div style="margin-top: 10px;">
+                            <!-- <c-reprodutor-video url-video={urlVideo} width={width} height={height}></c-reprodutor-video> -->
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <!-- <c-reprodutor-video url-video={urlVideo2} width={width2} height={height2}>
+                            </c-reprodutor-video> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class={sizeCommunity}>
+                    <template if:false={existEvents}>
+                        <center>
+                            Não há agendamentos para serem exibidos!
+                        </center>
+                    </template>
+
+                    <center>
+                        <div class='calendar'></div>
+                        <template if:true={existEvents}>
+                            <div style="margin-top: 10px">Legenda - Compromissos</div>
+                            <div class="slds-grid slds-grid_align-space">
+                                <div class="slds-col">
+                                    <b style="color: #eb7092;">&#9648;</b> Cliente
+                                </div>
+                                <div class="slds-col">
+                                    <b style="color: #50e3c2;">&#9648;</b> Empreendimento
+                                </div>
+                            </div>
+                        </template>
+                    </center>
+                </div>
+            </div>
+           <!--  <template if:true={calendarInitialized}>
+                <c-portal-modal-create-work-order></c-portal-modal-create-work-order>
+            </template>
+            <template if:true={calendarInitialized}>
+                <c-portal-modal-compromisso></c-portal-modal-compromisso>
+            </template> -->
+        </template>
+    </template>
+</template>

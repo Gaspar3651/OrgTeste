@@ -1,0 +1,786 @@
+/** {
+	 margin: 0px;
+	 padding: 0px;
+	 font-family: 'Titillium Web', sans-serif;
+}*/
+.cury-chega-mais {
+	 margin: 0px;
+	 padding: 0px;
+	 font-family: 'Titillium Web', sans-serif !important;
+}
+
+h1, h2, h3, p, span {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+ .content {
+	 width: 1060px;
+	 margin: 0px auto;
+}
+ .clear {
+	 clear: both;
+}
+ .spacer {
+	 height: 1px;
+}
+ .header {
+	 background: #fff;
+	 padding: 10px 30px;
+}
+ .header h1 {
+	 display: block;
+	 text-indent: -9999px;
+	 background: url(../img/logo.png) no-repeat center center;
+	 width: 166px;
+	 height: 50px;
+	 float: left;
+}
+ .header ul {
+	 list-style-type: none;
+	 float: right;
+	 margin-top: 15px;
+}
+ .header ul li {
+	 display: inline-block;
+	 margin-left: 20px;
+}
+ .header ul li a {
+	 text-decoration: none;
+	 color: #0094c3;
+	 font-weight: 700;
+	 text-transform: uppercase;
+}
+ .slider {
+	 background: url(../img/slide-cury-chegamais.jpg) no-repeat center center;
+	 height: 372px;
+}
+ .slider h1 {
+	 color: #fff;
+	 text-transform: uppercase;
+	 font-weight: 400;
+	 width: 250px;
+	 font-size: 26px;
+	 line-height: 30px;
+	 margin: 80px 0px 20px 50px;
+}
+ .slider h1 strong {
+	 color: #25b7bc;
+}
+ .slider h2 {
+	 color: #fff;
+	 text-transform: uppercase;
+	 font-size: 16px;
+	 line-height: 20px;
+	 font-weight: 400;
+	 width: 300px;
+	 margin-left: 50px;
+}
+ .slider a {
+	 text-transform: uppercase;
+	 color: #fff;
+	 text-decoration: none;
+	 text-align: center;
+	 width: 100px;
+	 margin: 30px auto 0px auto;
+	 display: block;
+	 background: url(../img/arrow-bottom.png) no-repeat center bottom;
+	 padding-bottom: 25px;
+	 font-size: 20px;
+}
+ .parcela {
+	 background: url(../img/parcela-cury-chegamais.jpg) no-repeat center center;
+	 height: 484px;
+}
+ .parcela h2 {
+	 display: block;
+	 text-indent: -9999px;
+	 background: url(../img/tit-cury-parcelapremiada.png) no-repeat center center;
+	 width: 654px;
+	 height: 140px;
+	 margin: 30px 30px 0px 0px;
+	 float: right;
+}
+ .parcela h3 {
+	 color: #fff;
+	 text-transform: uppercase;
+	 font-weight: 400;
+	 width: 300px;
+	 font-size: 26px;
+	 line-height: 30px;
+	 margin: 50px 0px 20px 400px;
+	 float: left;
+}
+ .parcela h3 span {
+	 color: #ffdd00;
+	 font-weight: 700;
+}
+ .parcela p {
+	 color: #fff;
+	 text-transform: uppercase;
+	 font-size: 18px;
+	 line-height: 22px;
+	 font-weight: 400;
+	 width: 330px;
+	 margin-left: 400px;
+	 float: left;
+}
+ .parcela p strong {
+	 color: #ffdd00;
+	 font-weight: 700;
+}
+ .parcela ul {
+	 list-style-type: none;
+	 float: right;
+	 display: block;
+	 width: 300px;
+	 margin-top: -100px;
+}
+ .parcela ul li {
+	 padding-left: 50px;
+	 height: 60px;
+}
+ .parcela ul li p {
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 margin-left: 0px;
+	 line-height: 60px;
+}
+ .parcela ul li.icon1 {
+	 background: url(../img/icon-1-cury-parcelapremiada.png) no-repeat center left;
+}
+ .parcela ul li.icon2 {
+	 background: url(../img/icon-2-cury-parcelapremiada.png) no-repeat center left;
+}
+ .parcela ul li.icon3 {
+	 background: url(../img/icon-3-cury-parcelapremiada.png) no-repeat center left;
+}
+ .parcela ul li.icon4 {
+	 background: url(../img/icon-4-cury-parcelapremiada.png) no-repeat center left;
+}
+ .beneficios {
+	 background: url(../img/beneficios-cury-chegamais.jpg) no-repeat center center;
+	 height: 254px;
+}
+ .beneficios ul {
+	 list-style-type: none;
+	 float: right;
+	 display: block;
+	 margin-top: 30px;
+}
+ .beneficios ul li {
+	 padding-top: 130px;
+	 width: 130px;
+	 float: left;
+	 margin: 0px 30px;
+}
+ .beneficios ul li p {
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 margin-left: 0px;
+	 line-height: 60px;
+	 color: #ffdd00;
+	 text-align: center;
+	 line-height: 20px;
+}
+ .beneficios ul li.icon1 {
+	 background: url(../img/icon-1-cury-beneficios.png) no-repeat top center;
+}
+ .beneficios ul li.icon2 {
+	 background: url(../img/icon-2-cury-beneficios.png) no-repeat top center;
+}
+ .beneficios ul li.icon3 {
+	 background: url(../img/icon-3-cury-beneficios.png) no-repeat top center;
+}
+ .programa {
+	 background: #e55179;
+	 height: 460px;
+}
+ .programa h3 {
+	 color: #fff;
+	 font-size: 35px;
+	 margin-top: 30px;
+	 text-transform: uppercase;
+	 text-align: center;
+	 font-weight: 400;
+}
+ .programa h3 span {
+	 color: #ffdd00;
+	 font-weight: 700;
+}
+ .programa ul {
+	 list-style-type: none;
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 30px;
+}
+ .programa ul li {
+	 width: 200px;
+	 float: left;
+	 padding: 130px 30px 0px 30px;
+}
+ .programa ul li p {
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 margin-left: 0px;
+	 line-height: 60px;
+	 color: #fff;
+	 text-align: center;
+	 line-height: 20px;
+}
+ .programa ul li p span {
+	 font-size: 14px;
+	 line-height: 18px;
+}
+ .programa ul li a {
+	 display: block;
+	 background: #ffdd00;
+	 color: #000;
+	 text-align: center;
+	 border-radius: 30px;
+	 text-decoration: none;
+	 margin: 20px auto;
+	 width: 140px;
+	 text-transform: uppercase;
+	 font-size: 14px;
+	 padding: 5px 0px;
+}
+ .programa ul li a:hover {
+	 background: #fff;
+}
+ .programa ul li.icon1 {
+	 background: url(../img/icons-cury-programa.png) no-repeat;
+	 background-position-x: 54px;
+}
+ .programa ul li.icon2 {
+	 background: url(../img/icons-cury-programa.png) no-repeat;
+	 background-position-x: -147px;
+}
+ .programa ul li.icon3 {
+	 background: url(../img/icons-cury-programa.png) no-repeat;
+	 background-position-x: -313px;
+}
+ .programa ul li.icon4 {
+	 background: url(../img/icons-cury-programa.png) no-repeat;
+	 background-position-x: -546px;
+}
+ .overlay {
+	 position: absolute;
+	 width: 100%;
+	 min-height: 100%;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 background: rgba(0,0,0,0.7);
+	 transition: opacity 500ms;
+	 visibility: hidden;
+	 opacity: 0;
+}
+ .overlay:target {
+	 visibility: visible;
+	 opacity: 1;
+}
+ .popup {
+	 margin: 30px auto;
+	 padding: 20px;
+	 background: #fff;
+	 border-radius: 5px;
+	 width: 30%;
+	 position: relative;
+	 transition: all 5s ease-in-out;
+}
+ .popup h2 {
+	 margin-top: 0;
+	 margin-bottom: 10px;
+	 color: #333;
+	 font-family: Tahoma, Arial, sans-serif;
+	 font-size: 18px;
+	 line-height: 26px;
+	 text-align: center;
+}
+ .popup p {
+	 width: 70%;
+	 margin: 0px auto;
+	 text-align: center;
+	 margin-bottom: 20px;
+	 line-height: 18px;
+}
+ .popup p span {
+	 font-size: 12px;
+	 line-height: 14px;
+}
+ .popup a.btn {
+	 display: block;
+	 width: 30%;
+	 margin: 0px auto 20px auto;
+	 text-decoration: none;
+	 color: #000;
+	 border: 1px solid #ccc;
+	 text-align: center;
+	 border-radius: 5px;
+	 padding: 5px 15px;
+	 background: #eeeeee;
+	 background: -moz-linear-gradient(top,#eeeeee 0%,#cccccc 100%);
+	 background: -webkit-linear-gradient(top,#eeeeee 0%,#cccccc 100%);
+	 background: linear-gradient(to bottom,#eeeeee 0%,#cccccc 100%);
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee',endColorstr='#cccccc',GradientType=0);
+}
+ .popup .close {
+	 position: absolute;
+	 top: 20px;
+	 right: 30px;
+	 transition: all 200ms;
+	 font-size: 30px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: #333;
+}
+ .popup .close:hover {
+	 color: #0094c3;
+}
+ .popup .content {
+	 max-height: 30%;
+	 overflow: auto;
+	 width: 100%;
+}
+ .popup .content img.loader {
+	 top: 50%;
+	 left: 50%;
+	 position: absolute;
+	 margin-left: -20px;
+}
+ .popup form h4 {
+	 margin-bottom: 10px;
+}
+ .popup form input[type='text'], .popup form input[type='email'] {
+	 box-shadow: none;
+	 border-style: solid;
+	 border-color: #ccc;
+	 border-width: 1px;
+	 text-indent: 5px;
+}
+ .popup form input {
+	 width: 96%;
+	 height: 30px;
+	 margin-bottom: 10px;
+	 transition: background-color 0.25s ease-in-out 0s, border-color 0.25s ease-in-out 0s;
+}
+ .popup form input:focus {
+	 outline: none;
+}
+ .popup form input.half {
+	 width: 46%;
+	 float: left;
+	 margin-right: 3%;
+}
+ .popup form input.third {
+	 width: 30%;
+	 float: left;
+	 margin-right: 3%;
+}
+ .popup form input[type=submit] {
+	 width: 50%;
+	 margin: 0px auto;
+	 display: block;
+	 cursor: pointer;
+}
+ .cfooter {
+	 background: url(../img/bgFooter.jpg) no-repeat 50% 0;
+	 width: 100%;
+	 padding: 45px 0;
+	 color: #fff;
+	 margin-bottom: -20px;
+}
+ .cfooter .logo {
+	 display: block;
+	 margin: 0 auto 30px;
+}
+ .cfooter nav {
+	 text-align: right;
+	 padding: 15px 0;
+	 display: none;
+}
+ .cfooter nav a {
+	 color: #fff;
+	 font-size: 0.85em;
+	 text-transform: uppercase;
+	 padding: 0 25px;
+	 border-right: 1px solid #fff;
+	 text-decoration: none;
+}
+ .cfooter nav a:last-child {
+	 border: none;
+	 padding-right: 0;
+}
+ .cfooter .social {
+	 text-align: right;
+	 padding: 15px 0 25px;
+	 display: none;
+}
+ .cfooter .social a {
+	 background: no-repeat 0 0;
+	 width: 56px;
+	 height: 56px;
+	 text-align: left;
+	 text-indent: -9999px;
+	 margin-right: 10px;
+	 display: inline-block;
+}
+ .cfooter .cbtnFb {
+	 background-image: url(../img/iconFb.png);
+}
+ .cfooter .cbtnGp {
+	 background-image: url(../img/iconGp.png);
+}
+ .cfooter .cbtnTw {
+	 background-image: url(../img/iconTw.png);
+}
+ .cfooter .cbtnYt {
+	 background-image: url(../img/iconYt.png);
+}
+ .cfooter .cbtnLi {
+	 background-image: url(../img/iconLi.png);
+}
+ .cfooter .cbtnBl {
+	 background-image: url(../img/iconBl.png);
+}
+ .cfooter .copy {
+	 color: #bfbfbf;
+	 font-size: 0.85em;
+	 text-align: center;
+}
+ .cfooter .link {
+	 text-align: right;
+	 margin-bottom: 10px;
+	 overflow: auto;
+	 display: none;
+}
+ .cfooter .link a {
+	 color: #60c1ea;
+	 font-size: 0.8em;
+	 border-bottom: 1px solid #60c1ea;
+	 float: right;
+	 text-decoration: none;
+}
+ .cfooter .link a:first-child {
+	 padding-left: 0;
+}
+ .cfooter .link a:last-child, .cfooter .link a.item-last {
+	 padding-right: 0;
+}
+ .cfooter .link a.item-last {
+	 margin-right: 5px;
+}
+ .cfooter .link span {
+	 color: #60c1ea;
+	 float: right;
+	 margin: 0 5px;
+}
+ .cfooter .link a.item-versao {
+	 display: inline-block;
+	 padding-right: 0;
+	 margin: 12px 0;
+}
+ @media screen and (max-width: 1000px) {
+	 .popup {
+		 width: 80%;
+	}
+	 .popup form input {
+		 height: 40px;
+		 font-size: 18px;
+		 margin-bottom: 15px;
+	}
+	 .popup form .styled-checkbox + label, .popup form p {
+		 font-size: 16px;
+	}
+	 .header h1 {
+		 margin-right: 30px;
+	}
+	 .header ul {
+		 float: none;
+	}
+	 .content {
+		 width: 100%;
+	}
+	 .slider {
+		 background: url(../img/slide-cury-chegamais2.jpg) no-repeat 100% 50%;
+	}
+	 .parcela {
+		 height: 600px;
+		 background: #25b7bc;
+	}
+	 .parcela h2 {
+		 width: 80%;
+		 background-size: 100%;
+		 margin: 20px auto;
+		 float: none;
+	}
+	 .parcela h3, .parcela p {
+		 width: 80%;
+		 margin: 30px auto 30px auto;
+		 text-align: center;
+		 float: none;
+	}
+	 .parcela ul {
+		 width: 100%;
+		 margin: 20px auto;
+		 display: flex;
+	}
+	 .parcela ul li {
+		 min-width: 23%;
+		 height: auto;
+		 float: none;
+	}
+	 .parcela ul li p {
+		 margin: auto 10px;
+		 text-align: center;
+		 line-height: 1.4em;
+	}
+	 .parcela ul li.icon1, .parcela ul li.icon2, .parcela ul li.icon3, .parcela ul li.icon4 {
+		 padding: 70px 0 0;
+		 background-position: 50% 0;
+	}
+	 .beneficios {
+		 background: url(../img/beneficios-cury-chegamais2.jpg) no-repeat 0 0 #001238;
+		 overflow: auto;
+		 height: auto;
+	}
+	 .beneficios ul {
+		 width: 96%;
+		 margin: 180px 2% 80px;
+		 display: flex;
+	}
+	 .beneficios ul li {
+		 width: 33.33%;
+	}
+	 .programa {
+		 background: #e55179;
+		 height: 500px;
+	}
+	 .programa h3 {
+		 width: 80%;
+		 margin: 50px auto 20px;
+		 text-align: center;
+		 font-size: 28px;
+	}
+	 .cfooter {
+		 min-height: 50px;
+	}
+	 .cfooter nav, .cfooter .social, .cfooter .copy, .cfooter .link {
+		 display: none;
+	}
+	 .cfooter .logo {
+		 float: none;
+		 display: block;
+		 margin: 0px auto;
+	}
+     
+}
+ @media screen and (max-width: 700px) {
+	 .box {
+		 width: 70%;
+	}
+	 .slider {
+		 background-position: 90% 50%;
+	}
+	 .slider h1 {
+		 margin: 80px 0px 20px 20px;
+	}
+	 .slider h2 {
+		 margin-left: 20px;
+	}
+	 .programa ul li {
+		 width: 200px;
+		 padding: 130px 10px 0;
+	}
+	 .programa ul li.icon1 {
+		 background-position-x: 54px;
+	}
+	 .programa ul li.icon2 {
+		 background-position-x: -147px;
+	}
+	 .programa ul li.icon4 {
+		 background-position-x: -546px;
+	}
+}
+ @media screen and (max-width: 480px) {
+	 .content {
+		 width: 100%;
+	}
+	 .slider {
+		 background: #00193a;
+	}
+	 .slider h1, .slider h2 {
+		 margin: 30px auto 0px auto;
+		 width: 90%;
+		 text-align: center;
+	}
+	 .parcela {
+		 height: 770px;
+	}
+	 .parcela h2 {
+		 width: 90%;
+		 height: 100px;
+		 float: none;
+	}
+	 .parcela ul {
+		 float: none;
+		 width: 75%;
+		 margin: 20px auto;
+		 display: block;
+	}
+	 .parcela ul li {
+		 height: 60px;
+		 margin-bottom: 15px;
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: center;
+	}
+	 .parcela ul li p {
+		 margin-left: 10px;
+		 text-align: left;
+	}
+	 .parcela ul li.icon1, .parcela ul li.icon2, .parcela ul li.icon3, .parcela ul li.icon4 {
+		 padding: 0 0 0 50px;
+		 background-position: 0 50%;
+	}
+	 .beneficios {
+		 background: #001238;
+		 height: 730px;
+	}
+	 .beneficios ul {
+		 float: none;
+		 width: 80%;
+		 margin: 50px auto;
+		 display: block;
+	}
+	 .beneficios ul li {
+		 width: 100%;
+		 margin: 0 0 30px;
+	}
+	 .programa {
+		 background: #e55179;
+		 height: 1000px;
+	}
+	 .programa h3 {
+		 width: 80%;
+		 margin: 20px auto;
+		 text-align: center;
+		 font-size: 28px;
+	}
+	 .programa ul {
+		 display: block;
+	}
+	 .programa ul li {
+		 width: 60%;
+		 max-width: 200px;
+		 float: none;
+		 padding: 130px 0px 0px 0px;
+		 display: block;
+		 margin: 50px auto;
+	}
+	 .programa ul li.icon1 {
+		 background: url(../img/icons-cury-programa2.png) no-repeat;
+		 background-position-x: 60px;
+	}
+	 .programa ul li.icon2 {
+		 background: url(../img/icons-cury-programa2.png) no-repeat;
+		 background-position-x: -140px;
+	}
+	 .programa ul li.icon3 {
+		 background: url(../img/icons-cury-programa2.png) no-repeat;
+		 background-position-x: -335px;
+	}
+	 .programa ul li.icon4 {
+		 background: url(../img/icons-cury-programa2.png) no-repeat;
+		 background-position-x: -540px;
+	}
+	 .header h1 {
+		 margin: 0px auto;
+		 float: none;
+	}
+	 .header ul {
+		 display: none;
+	}
+	 .popup .close {
+		 top: -10px;
+		 right: 10px;
+	}
+	 .popup form input {
+		 height: 25px;
+	}
+	 .popup form input.half {
+		 width: 44%;
+	}
+	 .popup form input.third {
+		 width: 27%;
+	}
+	 .popup p {
+		 width: 100%;
+	}
+	 .popup a.btn {
+		 width: 50%;
+	}
+}
+ @media screen and (width: 768px) {
+	 .popup {
+		 width: 70%;
+	}
+	 .content {
+		 width: 100%;
+	}
+	 .header ul li {
+		 margin-left: 10px;
+	}
+	 .slider {
+		 background-position: -440px;
+	}
+	 .parcela {
+		 background-position: right;
+	}
+	 .parcela h2 {
+		 margin: 30px auto 50px auto;
+		 float: none;
+	}
+	 .parcela h3, .parcela p {
+		 margin: 0px 0px 20px 80px;
+	}
+	 .parcela ul li p {
+		 line-height: 45px;
+	}
+	 .beneficios {
+		 background-position-x: -740px;
+	}
+	 .programa h3 {
+		 font-size: 30px;
+	}
+	 .programa ul li {
+		 width: 140px;
+		 float: left;
+		 padding: 130px 20px 0px 20px;
+	}
+	 .programa ul li.icon1 {
+		 background-position-x: 40px;
+	}
+	 .programa ul li.icon2 {
+		 background-position-x: -160px;
+	}
+	 .programa ul li.icon3 {
+		 background-position-x: -360px;
+	}
+	 .programa ul li.icon4 {
+		 background-position-x: -555px;
+	}
+	 .cfooter {
+		 min-height: 50px;
+	}
+	 .cfooter nav, .cfooter .social, .cfooter .copy, .cfooter .link {
+		 display: none;
+	}
+	 .cfooter .logo {
+		 float: none;
+		 display: block;
+		 margin: 0px auto;
+	}
+}
+ 

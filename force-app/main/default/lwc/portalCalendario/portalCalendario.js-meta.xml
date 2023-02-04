@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage, lightningCommunity__Default">
+            <property label="Comunidade" name="isCommunity" type="Boolean"/>
+            <property label="Youtube/Google Drive Video Url" name="urlVideo" type="String"/>
+            <property label="Largura (px)" name="width" type="String"/>
+            <property label="Altura (px)" name="height" type="String"/>
+            <property label="Youtube/Google Drive Video Url 2" name="urlVideo2" type="String"/>
+            <property label="Largura (px) 2" name="width2" type="String"/>
+            <property label="Altura (px) 2" name="height2" type="String"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
